@@ -1,0 +1,34 @@
+{
+    "description": "This file is for storing required values for files",
+    "rssGRABBER": {
+        "sources": {
+            "description": "Enter the URLs with RSS-Feeds here.",
+            "websites": {
+                "tagesschau-Newsfeed": "https://www.tagesschau.de/xml/rss2",
+                "VideoPodcast": {
+                    "tagesschau-in-100sekunden": "https://www.tagesschau.de/export/video-podcast/webxl/tagesschau-in-100-sekunden_https/",
+                    "tagesschau20Uhr": "https://www.tagesschau.de/export/video-podcast/webxl/tagesschau_https/",
+                    "tagesthemen": "https://www.tagesschau.de/export/video-podcast/webxl/tagesthemen_https/"
+                }
+            }
+        },
+        "filter": {
+            "description": "Enter the Keywords needed for finding the right articles here.",
+            "keywords": [
+                "Corona",
+                "CoVid19",
+                "CoVid-19",
+                "Sars-Cov2",
+                "SarsCov2",
+                "SarsCov-2",
+                "Sars-Cov-2",
+                "Lockdown",
+                "Impfstoff",
+                "Pandemie",
+                "Coronavirus",
+                "Masken"
+            ]
+        }
+    },
+    "api_handler": {}
+}

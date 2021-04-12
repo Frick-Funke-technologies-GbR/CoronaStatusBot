@@ -1,0 +1,11 @@
+.vscode/
+env/
+.env/
+__pycache__/
+cache/cache.json
+cache/cache_api_parser.json
+cache/update_cache_api_parser.txt
+cache/rssHandlerLOG.txt
+cache/SORTEDtagesschau-articles.json
+cache/tagesschauVideoPodcastLink.json
+cache/UNSORTEDtagesschau-articles.json

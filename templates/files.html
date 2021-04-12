@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="60" />
+    <meta charset="UTF-8" />
+    <title>Tail Directory</title>
+  </head>
+  <body>
+    <h2>
+      /cache Directory
+    </h2>
+    <ul>
+        {% for file in files %}
+        <li>
+          <a href="{{ (request.path + '/' if request.path != '/' else '') + file }}">
+            {{ "/cache/" + file }}
+        </a>
+        </li>
+        {% endfor %}
+    </ul>
+  </body>
+</html>
